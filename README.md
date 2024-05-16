@@ -1,2 +1,2 @@
 # justCode
-Projects in C++ to become more and more familiar with this language
+Projects in C/C++ to become more and more familiar with these languages
