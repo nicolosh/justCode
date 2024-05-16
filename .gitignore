@@ -1,0 +1,5 @@
+# remove exe files from GIT VS
+*.exe
+
+# vscode folder
+.vscode
