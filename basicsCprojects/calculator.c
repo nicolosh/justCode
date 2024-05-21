@@ -14,7 +14,7 @@ int main()
     scanf("%c", &operation);
 
     // prompt user for numbers
-    printf("Insert 2 numbers (if you want to elevate 1 number to another 1 choose the 2 input as integer): ");
+    printf("Insert 2 numbers (if you want to elevate a number to another one choose the 2nd input as integer): ");
     scanf("%lf %lf", &num1, &num2);
 
 
@@ -41,7 +41,6 @@ int main()
             break;
         case '^':
             result = 1;
-            // assert(num2 == (int)num2);
             for(int i=1; i<=(int)num2; i++)
                 result *= num1;
             break;
